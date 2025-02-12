@@ -11,7 +11,7 @@
         label = "default_kscan";
 
         input-gpios = 
-            <&gpio0 12 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>, <&gpio0 24 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+            <&gpio0 12 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>, <&gpio0 11 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
     };
 
     default_transform: matrix_transform {
